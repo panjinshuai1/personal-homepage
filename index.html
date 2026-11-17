@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人主页</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Microsoft YaHei", Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 40px 50px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    }
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: #fff;
+      color: #764ba2;
+      font-size: 42px;
+      font-weight: bold;
+      line-height: 100px;
+      margin: 0 auto 20px;
+    }
+    h1 { font-size: 28px; margin-bottom: 10px; }
+    p.subtitle { font-size: 16px; opacity: 0.9; margin-bottom: 20px; }
+    ul.skills {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    ul.skills li {
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">潘</div>
+    <h1>潘金帅</h1>
+    <p class="subtitle">计算机相关专业学生 · 热爱编程与技术分享</p>
+    <ul class="skills">
+      <li>Java</li>
+      <li>HTML / CSS</li>
+      <li>JavaScript</li>
+      <li>C / C++</li>
+      <li>MySQL</li>
+      <li>Linux</li>
+    </ul>
+  </div>
+</body>
+</html>
